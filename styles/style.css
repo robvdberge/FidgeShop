@@ -1,0 +1,57 @@
+/*==============================================
+*   Inhoudsopgave
+*
+*
+*
+*
+*
+*=================================================*/
+
+/*************************************************
+*   Algemene instellingen
+***************************************************/
+body {
+    padding-top: 56px;
+}
+.main{
+    min-height: 75vh;
+    margin-bottom: 2em;
+}
+/************************************************
+*   Header.php
+**************************************************/
+.navbar{
+    background-image: url("../Images/rozemarmer.jpg");
+    border-bottom: 3px ridge rgb(238, 213, 73);
+}
+.navbar-brand img{
+    width: 3em;
+    height: 3em;
+}
+.nav-link{
+    font-size: 1.5em;
+    text-shadow: 3px 3px 5px black;
+}
+.brandname{
+    text-shadow: 5px 5px 5px rgb(56, 56, 56);
+    color: white;
+    font-weight: bold;
+    font-size: 2.5em;
+    font-family: "Lobster", Times, serif;
+}
+/*********************************************
+*   Index.php
+**********************************************/
+img.card-img-top{
+    height: 10em;
+    width: 10em;
+}
+
+/********************************************
+*   Footer.php
+*********************************************/
+.social-link i{
+    margin: 6px;
+    font-size: 2em;
+    color: white;
+}
